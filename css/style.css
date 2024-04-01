@@ -1,0 +1,435 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+
+/* Color class Property */
+ .green{
+    color: #16cb88;
+ }
+ .darkB{
+    color: #0e2b5c;
+ }
+ .darkGr{
+    color: rgb(109 127 157);
+ }
+ /* Color class Property End */
+
+
+.fsP{
+    font-size:14px;
+}
+
+.display-3{
+    font-weight: 700;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.secH{
+
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.therdH{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 1rem 0 !important
+}
+
+.web-container{
+    max-width: 2100px;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+select,select:focus-visible{
+    border: none;
+    outline: none;
+}
+header *{
+    color: rgb(109 127 157);
+
+}
+header .col-3 i{
+color: #0e2b5c;
+}
+header .col-3 span{
+   width: 2rem;
+}
+.navbar-brand{
+    width: 9rem;
+}
+.nav-link{
+    position: relative;
+}
+.dropdown-toggle::after {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-left: 0;
+}
+.nav-link{
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #16cb88;
+    border-bottom: 2px solid #16cb88;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #0e2b5c;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #16cb88;
+}
+.nav-link:focus,.nav-link:focus:hover{
+border-bottom: 2px solid #16cb88;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.5rem 1rem;
+    
+}
+nav form.d-flex .btn{
+    background-color: #0e2b5c;
+    color: #ffffff;
+}
+
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: default;
+    z-index: 3;
+}
+
+header .carousel-indicators {
+    z-index: 3;
+}
+
+span[class^="carousel-control"]{
+    cursor: pointer;
+}
+.carousel{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background-color: #00000071;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.carousel .container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.greenbtn, .greenbtn i{
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #0e2b5c;
+    font-weight: 700;
+}
+.greenbtn:hover, .greenbtn:hover i{
+    border-radius: 2px;
+    background-color:#16cb88;
+    color: #ffffff;
+}
+.greenbtnD{
+    border-radius: 2px;
+    background-color:#16cb88;
+    color: #ffffff;
+    font-weight: 700;
+}
+.greenbtnD:hover{
+    background-color:#13b379;
+    color: #ffffff;
+}
+
+.btnOutline{
+    display: inline-block;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+    background-color:transparent;
+    color: #ffffff;
+    font-weight: 700;
+ }
+ .btnOutline:hover{
+    color: #ffffff;
+ }
+
+.section1 img{
+    width: 72%;
+}
+.section1 .greenbtnD+div img{
+    width: 40%;
+}
+.section1 .col-md-6{
+    position: relative;
+}
+.section1 .greenbtnD i{
+padding-left: 4rem;
+}
+
+/*******************
+*********************
+all carousel settings
+*********************
+*********************
+ */
+.section1 .carousel-indicators [data-bs-target]{  
+    width: 20px;
+    height: 5px;
+    background-color: #fff;
+    border: 0;
+    opacity: 1;
+    border-radius: 2px;
+       cursor: pointer;
+}
+.section1 .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: rgb(109 127 157);
+}
+.section1 .carousel-dark .carousel-indicators [data-bs-target].active {
+    background-color:#16cb88;
+    width: 30px;
+}
+.section1  .carousel-indicators {
+    justify-content: flex-start;
+    margin-left: 6%;
+}
+.section1  .carousel-caption {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+.section1  #carouselExampleDark{
+    position: absolute;
+    right: 12%;
+    top: 50%;
+    transform: translatey(-50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 5px #36363612;
+}
+.section1 .carousel-inner {
+    box-shadow: 52px 0 0px -50px #16cb88;
+}
+/*******************
+*********************
+all carousel settings
+*********************
+*********************
+ */
+
+a.fsP.fw-bold.darkB:hover{
+color: #00D17E;
+}
+
+
+.section2{
+    background:url(../image/Section2.jpg), aliceblue;
+    background-position:left ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    overflow: hidden;
+}
+ /*******************
+*********************
+second carousel settings
+*********************
+*********************
+ */
+ .section2 .container{
+    position: relative;
+ }
+.section2 .btnOutline{
+    display: table;
+    margin: auto;
+}
+.section2 .carousel-indicators [data-bs-target] {  
+    width: 20px;
+    height: 5px;
+    background-color: #fff;
+    border: 0;
+    opacity: 1;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.section2 .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: rgb(109 127 157);
+}
+.section2 .carousel-dark .carousel-indicators [data-bs-target].active {
+    background-color:#16cb88;
+    width: 30px;
+}
+.section2  .carousel-indicators {
+    justify-content: flex-start;
+    margin-left: 2%;
+    margin-bottom: 0.5rem;
+}
+.section2  .carousel-caption {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+.section2  #carouselExampleDark1{
+    position: absolute;
+    width: 100%;
+    left: 32%;
+    top: 4.5rem;
+  
+}
+/*******************
+*********************
+second carousel settings
+*********************
+*********************
+ */
+
+ .section2 .greencard{
+    background-image: linear-gradient(180deg, #00d17d95 10%, #00D17E 80%), url('../image/card1.jpeg');
+    background-position: center,center;
+    background-repeat: no-repeat,no-repeat;
+    background-size: cover,cover;
+ }
+
+ .section4 .partners{
+    width: 14.285%;
+ }
+
+.section5{
+    background-image: linear-gradient(180deg, #07c076af 20%, #07c076 90%), url('../image/Background.jpg');
+    background-position: center,center;
+    background-repeat: no-repeat,no-repeat;
+    background-size: cover,cover;
+}
+.section5 .adhar{
+    position: relative;
+}
+.adhar video{
+    position: absolute;
+    top: -120px;
+}
+
+.odd>div{
+    position: relative;
+}
+.odd>div:nth-child(odd){
+    top: -1rem;
+}
+.odd>div:nth-child(even){
+    top: 1rem;
+}
+.bg-light{
+    background-color: #f4f4f4 !important;
+}
+.bg-light img{
+   mix-blend-mode:darken;
+}
+
+footer.backgr{
+    background-color: #0b2653;
+}
+
+footer input{
+    background-color: #061b49;
+    border: none;
+    border-radius: 2px;
+    width: 64%;
+}
+footer input::placeholder{
+    color:rgb(109 127 157) ;
+}
+
+.logopart a.icon{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid rgb(109 127 157);
+    border-radius: 50px;
+}
+
+a.icon i{
+    padding-top: 10px;
+}
+
+.footer2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer2 ul a{
+    color: #ffffff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #6d7f9d !important;
+}
+
+
+ @media (max-width: 1199.98px) {
+   
+  }
+  @media (max-width: 991.98px) {
+    .section2 #carouselExampleDark1{
+        left: 45%;
+    }
+    .adhar video {
+        position: absolute;
+        top: -10px;
+    }
+  }
+
+  @media (max-width: 767.98px) { 
+    .section2{
+        background: aliceblue;
+        background-position:center;
+        background-size:cover;
+    }
+    .section2 #carouselExampleDark1 {
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        margin-bottom: 25px;
+    }
+   }
+
+   @media (max-width: 575.98px) { 
+   
+     .adhar video {
+        position: relative;
+        top: auto;
+    }
+    .odd>div{
+      top: auto !important;
+    }
+    }
+
+
